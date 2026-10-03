@@ -1,0 +1,10 @@
+com.mediatek.vnet
+com.iflytek.inputmethod
+com.hugeland.cdsplus
+com.amazon.mp3
+com.google.android.keep
+com.steadfastinnovation.android.projectpapyrus
+com.microsoft.bing.wallpapers
+com.google.stadia.android
+com.microsoft.office.officehubrow
+com.microsoft.office.onenote

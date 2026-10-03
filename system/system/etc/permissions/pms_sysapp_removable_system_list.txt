@@ -1,0 +1,16 @@
+com.android.quicksearchbox
+com.android.calendar
+com.android.dreams.basic
+com.android.musicfx
+com.android.calculator2
+com.android.deskclock
+com.android.exchange
+com.google.android.apps.youtube.music
+com.android.soundrecorder
+com.google.android.apps.nbu.files
+com.tblenovo.soundrecorder
+com.tblenovo.lenovoruapps
+com.netflix.mediaclient
+ru.yandex.searchplugin
+com.yandex.browser
+
