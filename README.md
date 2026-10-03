@@ -1,0 +1,14 @@
+# full_p11-user 11 RP1A.200720.011 60 release-keys
+- manufacturer: lenovo
+- platform: mt6785
+- codename: p11
+- flavor: full_p11-user
+- release: 11
+- id: RP1A.200720.011
+- incremental: TB-J616F_S000031_210723_ROW
+- tags: release-keys
+- fingerprint: Lenovo/TB-J616F/TB-J616F:11/RP1A.200720.011/TB-J616F_S000031_210723_ROW:user/release-keys
+- is_ab: true
+- brand: Lenovo
+- branch: full_p11-user-11-RP1A.200720.011-60-release-keys
+- repo: lenovo_p11_dump

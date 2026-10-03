@@ -1,0 +1,4 @@
+system/system/apex/com.android.vndk.current.apex.zst
+system/system/priv-app/YandexSearch/YandexSearch.apk.zst
+system/system/priv-app/YandexBrowser/YandexBrowser.apk.zst
+product/priv-app/Velvet/Velvet.apk.zst
