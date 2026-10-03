@@ -1,0 +1,43 @@
+service vendor.countryservice /vendor/bin/countryservice read 60 8
+	class core
+    user system
+    group system
+    oneshot
+
+on init
+	start vendor.countryservice
+
+on property:vendor.build.fingerprint=0
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+    setprop ro.bootimage.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+    setprop ro.odm.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+    setprop ro.product.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+    setprop ro.system.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+
+on property:vendor.build.fingerprint=1
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+    setprop ro.bootimage.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+    setprop ro.odm.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+    setprop ro.product.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+    setprop ro.system.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+
+on property:vendor.build.fingerprint=2
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+    setprop ro.bootimage.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+    setprop ro.odm.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+    setprop ro.product.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+    setprop ro.system.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+
+on property:vendor.build.fingerprint=3
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+    setprop ro.bootimage.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+    setprop ro.odm.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+    setprop ro.product.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+    setprop ro.system.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+
+on property:vendor.build.fingerprint=5
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_normal}
+    setprop ro.bootimage.build.fingerprint ${ro.vendor.build.fingerprint_normal}
+    setprop ro.odm.build.fingerprint ${ro.vendor.build.fingerprint_normal}
+    setprop ro.product.build.fingerprint ${ro.vendor.build.fingerprint_normal}
+    setprop ro.system.build.fingerprint ${ro.vendor.build.fingerprint_normal}

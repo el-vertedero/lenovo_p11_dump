@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+		<ctl name="I2S3_CH1 DL1_CH1" value="0" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="0" />
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+		<ctl name="ADDA_UL_Mux" value="MTKAIF" />
+		<ctl name="ADDA_CH34_UL_Mux" value="MTKAIF" />
+		<ctl name="ADC_L_Mux" value="Idle" />
+		<ctl name="ADC_R_Mux" value="Idle" />
+		<ctl name="ADC_3_Mux" value="Idle" />
+		<ctl name="PGA_L_Mux" value="None" />
+		<ctl name="PGA_R_Mux" value="None" />
+		<ctl name="PGA_3_Mux" value="None" />
+		<ctl name="MISO0_MUX" value="UL1_CH1" />
+		<ctl name="MISO1_MUX" value="UL1_CH2" />
+		<ctl name="MISO2_MUX" value="UL2_CH1" />
+		<ctl name="UL_SRC_MUX" value="AMIC" />
+		<ctl name="UL2_SRC_MUX" value="AMIC" />
+		<ctl name="Mic_Type_Mux_0" value="Idle" />
+		<ctl name="Mic_Type_Mux_1" value="Idle" />
+		<ctl name="Mic_Type_Mux_2" value="Idle" />
+		<ctl name="FSM_Scene" value="0" />
+		<ctl name="FSM_Volume" value="255" />
+		<ctl name="PGAL Volume" value="0" />
+		<ctl name="PGAR Volume" value="0" />
+	<!-- smartpa test -->
+	<path name="smartpa_test">
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+		<ctl name="FSM_Scene" value="0" />
+	</path>
+
+	<!--ATA mode -->
+	<path name="reset_atadevice">
+		<ctl name="I2S3_CH1 DL1_CH1" value="0" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="0" />
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+		<ctl name="ADDA_UL_Mux" value="MTKAIF" />
+		<ctl name="ADDA_CH34_UL_Mux" value="MTKAIF" />
+		<ctl name="ADC_L_Mux" value="Idle" />
+		<ctl name="ADC_R_Mux" value="Idle" />
+		<ctl name="ADC_3_Mux" value="Idle" />
+		<ctl name="PGA_L_Mux" value="None" />
+		<ctl name="PGA_R_Mux" value="None" />
+		<ctl name="PGA_3_Mux" value="None" />
+		<ctl name="MISO0_MUX" value="UL1_CH1" />
+		<ctl name="MISO1_MUX" value="UL1_CH2" />
+		<ctl name="MISO2_MUX" value="UL2_CH1" />
+		<ctl name="UL_SRC_MUX" value="AMIC" />
+		<ctl name="UL2_SRC_MUX" value="AMIC" />
+		<ctl name="Mic_Type_Mux_0" value="Idle" />
+  		<ctl name="Mic_Type_Mux_1" value="Idle" />
+		<ctl name="Mic_Type_Mux_2" value="Idle" />
+		<ctl name="FSM_Scene" value="0" />
+		<ctl name="FSM_Volume" value="255" />
+		<ctl name="PGAL Volume" value="0" />
+		<ctl name="PGAR Volume" value="0" />
+	</path>
+	<path name="ata_submic_prirightspeaker">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH2" />
+		<ctl name="MISO1_MUX" value="UL1_CH2" />
+		<ctl name="ADC_R_Mux" value="Right Preamplifier" />
+		<ctl name="PGA_R_Mux" value="AIN2" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+
+		<ctl name="FSM_Scene" value="7" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="ata_submic_prileftspeaker">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH2" />
+		<ctl name="MISO1_MUX" value="UL1_CH2" />
+		<ctl name="ADC_R_Mux" value="Right Preamplifier" />
+		<ctl name="PGA_R_Mux" value="AIN2" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+
+		<ctl name="FSM_Scene" value="9" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="ata_mainmic_secleftspeaker">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH1" />
+		<ctl name="MISO1_MUX" value="UL1_CH1" />
+		<ctl name="ADC_L_Mux" value="Left Preamplifier" />
+		<ctl name="PGA_L_Mux" value="AIN0" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA0" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+		
+		<ctl name="FSM_Scene" value="11" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="ata_mainmic_secrightspeaker">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH1" />
+		<ctl name="MISO1_MUX" value="UL1_CH1" />
+		<ctl name="ADC_L_Mux" value="Left Preamplifier" />
+		<ctl name="PGA_L_Mux" value="AIN0" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA0" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+		
+		<ctl name="FSM_Scene" value="13" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+
+	<!--AT playback mode -->
+	<path name="reset_playdevice">
+		<ctl name="FSM_Scene" value="0" />
+		<ctl name="FSM_Volume" value="255" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="0" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="0" />
+		<ctl name="aw_dev_0_switch" value="Disable" />
+		<ctl name="aw_dev_1_switch" value="Disable" />
+		<ctl name="aw_dev_2_switch" value="Disable" />
+		<ctl name="aw_dev_3_switch" value="Disable" />
+	</path>
+	<path name="audioloop_receiver">
+	</path>
+	<path name="audioloop_speaker">
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+		<ctl name="FSM_Scene" value="0" />	
+	</path>
+	<path name="audioloop_leftspeaker">
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_rightspeaker">
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_prileftspeaker">
+		<ctl name="FSM_Scene" value="8" />
+		<ctl name="FSM_Volume" value="230" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_prirightspeaker">
+		<ctl name="FSM_Scene" value="10" />	
+		<ctl name="FSM_Volume" value="230" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_secleftspeaker">
+		<ctl name="FSM_Scene" value="12" />	
+		<ctl name="FSM_Volume" value="230" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<path name="audioloop_secrightspeaker">
+		<ctl name="FSM_Scene" value="14" />	
+		<ctl name="FSM_Volume" value="230" />
+		<ctl name="I2S3_CH1 DL1_CH1" value="1" />
+		<ctl name="I2S3_CH2 DL1_CH2" value="1" />
+	</path>
+	<!--AT record mode -->
+	<path name="reset_recorddevice">
+            	<ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+            	<ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+            	<ctl name="Mic_Type_Mux_0" value="Idle" />
+            	<ctl name="Mic_Type_Mux_2" value="Idle" />
+		<ctl name="ADC_L_Mux" value="Idle" />
+            	<ctl name="ADC_R_Mux" value="Idle" />
+            	<ctl name="PGA_L_Mux" value="None" />
+            	<ctl name="PGA_R_Mux" value="None" />
+            	<ctl name="UL_SRC_MUX" value="AMIC" />
+            	<ctl name="UL2_SRC_MUX" value="AMIC" />
+		<ctl name="PGAL Volume" value="0" />
+		<ctl name="PGAR Volume" value="0" />
+	</path>
+	<path name="audioloop_mic1">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH1" />
+		<ctl name="MISO1_MUX" value="UL1_CH1" />
+		<ctl name="ADC_L_Mux" value="Left Preamplifier" />
+		<ctl name="PGA_L_Mux" value="AIN0" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA0" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+	</path>
+	<path name="audioloop_mic2">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+		<ctl name="MISO0_MUX" value="UL1_CH2" />
+		<ctl name="MISO1_MUX" value="UL1_CH2" />
+		<ctl name="ADC_R_Mux" value="Right Preamplifier" />
+		<ctl name="PGA_R_Mux" value="AIN2" />
+		<ctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+	</path>
+	<path name="audioloop_mic1mic2">
+		<ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+		<ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+            	<ctl name="MISO0_MUX" value="UL1_CH1" />
+            	<ctl name="MISO1_MUX" value="UL1_CH2" />
+            	<ctl name="ADC_L_Mux" value="Left Preamplifier" />
+            	<ctl name="PGA_L_Mux" value="AIN0" />
+            	<ctl name="ADC_R_Mux" value="Right Preamplifier" />
+            	<ctl name="PGA_R_Mux" value="AIN2" />
+            	<ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+            	<ctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
+		<ctl name="PGAL Volume" value="3" />
+		<ctl name="PGAR Volume" value="3" />
+	</path>
+
+ </mixer>
